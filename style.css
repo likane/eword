@@ -33,8 +33,29 @@ body {
   /* opacity: 0; */
 }
 
-.fas {
-  color: #fff !important;
+.fa-bars {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.navbar .socialMediaIcons li {
+  list-style: none;
+  display: inline;
+  color: #fff;
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.navbar .socialMediaIcons li:hover {
+  color: #2d6c97;
+}
+
+/* .socialMediaIcons .fab {
+  color: #fff;
+} */
+
+.fa-bars:hover {
+  color: #2d6c97;
 }
 
 section {
@@ -86,10 +107,18 @@ p {
   margin-bottom: 2rem;
 }
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
   margin: 0 auto;
   width: 85%;
+  background: #2d6c97;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-title {
+  color: #fff;
 }
 
 .partners {
@@ -106,7 +135,13 @@ p {
 }
 
 .partnerList li {
-  display: block;
+  display: inline;
+  /* float: left; */
+}
+
+.fa-apple {
+  color: black;
+  font-size: 2rem;
 }
 
 .footerNav {
