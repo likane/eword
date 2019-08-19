@@ -115,6 +115,7 @@ p {
 
 .card:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background: #fff;
 }
 
 .card-title {
@@ -128,6 +129,7 @@ p {
 
 .partnerTitle {
   text-align: center;
+  color: #2d6c97;
 }
 
 .partnerList {
@@ -139,9 +141,10 @@ p {
   /* float: left; */
 }
 
-.fa-apple {
-  color: black;
-  font-size: 2rem;
+.partnerList li {
+  color: #78909c;
+  font-size: 5rem;
+  margin-right: 2.5rem;
 }
 
 .footerNav {
