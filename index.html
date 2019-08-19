@@ -59,12 +59,12 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#"
+            <a class="nav-link" href="index.html"
               >Home <span class="sr-only">(current)</span></a
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="about.html">About</a>
           </li>
           <!-- <li class="nav-item">
             <a class="nav-link" href="#">Services</a>
@@ -73,7 +73,7 @@
           <li class="nav-item dropdown">
             <a
               class="nav-link dropdown-toggle"
-              href="#"
+              href="services.html"
               id="navbarDropdown"
               role="button"
               data-toggle="dropdown"
@@ -99,7 +99,7 @@
               >
             </div>
             <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
+                <a class="nav-link" href="contact.html">Contact Us</a>
               </li>
           </li>
           <!-- <li class="nav-item">
@@ -190,21 +190,29 @@
 
     <!-- footer -->
     <ul class="nav footerNav justify-content-center bottom">
+        
+      <!-- <li class="nav-item">
+        <a class="nav-link" href="#">(310) 265-3172</a>
+      </li> -->
+      
       <li class="nav-item">
-        <a class="nav-link active" href="#">Active</a>
+          <a class="nav-link" href="#" data-toggle="popover" data-trigger="focus" data-placement="top" data-content="(310) 265-3172"><i class="fas fa-phone"></i></a>
+        </li>
+      <li class="nav-item">
+          <a class="nav-link" href="about.html">Info</a>
+        </li>
+      <li class="nav-item">
+        <a class="nav-link" href="services.html">Services</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link" href="contact.html">Contact Us</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link disabled" href="#"><i class="fas fa-copyright"></i> EWORD</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
-      </li>
-      <li><i class="fab fa-twitter"></i></li>
-      <li><i class="fab fa-linkedin-in"></i></li>
-      <li><i class="fab fa-instagram"></i></li>
+      <!-- <li class="nav-item"><i class="fab fa-twitter"></i></li>
+      <li class="nav-item"><i class="fab fa-linkedin-in"></i></li>
+      <li class="nav-item"><i class="fab fa-instagram"></i></li> -->
     </ul>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -223,5 +231,10 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
+    <script>
+      $(function () {
+        $('[data-toggle="popover"]').popover()
+        })
+    </script>
   </body>
 </html>
