@@ -18,8 +18,13 @@
 
     <!-- Fontawesome -->
     <link href="/fontawesome/css/all.css" rel="stylesheet" />
+    <link href="/fontawesome/css/brands.css" rel="stylesheet">
+    <link href="/fontawesome/css/solid.css" rel="stylesheet">
     <!--load all styles -->
     <script defer src="/fontawesome/js/all.js"></script>
+    <script defer src="/fontawesome/js/brands.js"></script>
+    <script defer src="/fontawesome/js/solid.js"></script>
+    <script defer src="fontawesome/js/fontawesome.js"></script>
 
     <!-- Google Fonts -->
     <link
@@ -28,13 +33,15 @@
     />
 
     <!-- Custom CSS-->
-    <link href="/style.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
 
-    <title>Hello, world!</title>
+    <title>E Word</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-light fixed-top">
-      <a class="navbar-brand" href="#">E-word</a>
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <a class="navbar-brand" href="#">
+        <img src="images/eword-logo.png" alt="" />
+      </a>
       <button
         class="navbar-toggler"
         type="button"
@@ -44,7 +51,7 @@
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -57,23 +64,42 @@
           <li class="nav-item">
             <a class="nav-link" href="#">About</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link" href="#">Services</a>
+          </li> -->
+         
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Services
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">On Site Support</a>
+              <a class="dropdown-item" href="#">Custom Audio & Video</a>
+              <a class="dropdown-item" href="#">PC / Mac / Server Assistance</a>
+              <a class="dropdown-item" href="#">Wifi Implementation</a>
+              <a class="dropdown-item" href="#"
+                >Cable Management & Maintenance</a
+              >
+              <a class="dropdown-item" href="#">Mobile Suport</a>
+              <a class="dropdown-item" href="#">Residential Automation</a>
+              <a class="dropdown-item" href="#">Security Cameras</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#"
+                >Network Best Practice & Security</a
+              >
+            </div>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact Us</a>
-          </li>
-          <!-- <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li> -->
           <!-- <li class="nav-item">
               <a class="nav-link disabled" href="#">Disabled</a>
             </li> -->
@@ -84,13 +110,77 @@
           </form> -->
       </div>
     </nav>
+    <section>
+      <!-- Initial banner -->
+      <div class="jumbotron jumbotron-fluid initialBanner ">
+        <div class="container">
+          <div clas="row">
+              <h1 class="display-4">Technology Concierge Service</h1>
+              <p class="lead">
+                Audio & Video | Network | IT
+              </p>
+          </div>
 
-    <div></div>
-    <div></div>
-    <div></div>
+          <div class="row headerButtons">
+              <div class="col-6">
+                  <button type="button" class="btn btn-outline-light spashInfoButtons">Services</button>
+              </div>
+              <div class="col-6">
+                  <button type="button" class="btn btn-outline-warning splashPhoneButtons">(310) 265-3172</button>
+              </div>
+          </div>
+          
+        </div>
+      </div>
+
+      <div class="row businessCards">
+        <div class="col-4"><div class="card" >
+            <div class="card-body">
+              <h5 class="card-title">Customer Reviews</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>
+          </div></div>
+        <div class="col-4"><div class="card" >
+            <div class="card-body">
+              <h5 class="card-title">Area of Service</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>
+          </div></div>
+        <div class="col-4"><div class="card" >
+            <div class="card-body">
+              <h5 class="card-title">Info</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>
+          </div></div>
+
+      </div>
+      <!-- company logo / info: location / testimony / established -->
+      <div></div>
+      <!-- corporate partners-->
+      <div class="row partners">
+      <div class="col-12 partnerTitle"><h4>Partner Brands</h4></div>
+      <div class="col-12"><ul class="partnerList">
+          <li><i class="fab fa-apple">p</i></li>
+          <li><i class="fab fa-apple">p</i></li>
+          <li><i class="fab fa-apple">p</i></li>
+          <li><i class="fab fa-apple"></i></li>
+          <li><i class="fab fa-apple"></i></li>
+          <li><i class="fab fa-apple"></i></li>
+        </ul></div>
+      </div>
+    </section>
 
     <!-- footer -->
-    <ul class="nav justify-content-center fixed-bottom">
+    <ul class="nav footerNav justify-content-center bottom">
       <li class="nav-item">
         <a class="nav-link active" href="#">Active</a>
       </li>

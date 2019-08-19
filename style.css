@@ -4,3 +4,111 @@ h3,
 p {
   font-family: "Open Sans", sans-serif;
 }
+
+body {
+  background-color: #fff;
+  height: 100%;
+}
+
+.nav-item {
+  min-height: 3rem;
+}
+
+.nav-link {
+  color: #fff;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+}
+
+.nav-link:hover {
+  color: #2d6c97;
+}
+
+.dropdown-item:hover {
+  color: #2d6c97;
+}
+
+.navbar {
+  background-color: #ef6c00 !important;
+  /* opacity: 0; */
+}
+
+.fas {
+  color: #fff !important;
+}
+
+section {
+  margin-top: 3rem;
+}
+
+.jumbotron {
+  /* background-color: #ef6c00 !important; */
+  background: #ef6c00 !important;
+  background: linear-gradient(
+    to right bottom,
+    #ef6c00 58%,
+    #fff 42%
+  ) !important;
+  min-height: 500px;
+}
+
+.jumbotron h1,
+p {
+  color: #fff;
+}
+
+.headerButtons {
+  margin-top: 10rem;
+}
+
+.headerButtons .btn {
+  width: 50%;
+  height: 3rem;
+}
+
+.splashPhoneButtons {
+  float: right;
+  color: #ef6c00;
+  border-color: #ef6c00;
+}
+
+.splashPhoneButtons:hover {
+  background-color: #ef6c00;
+  color: #fff;
+}
+
+.spashInfoButtons:hover {
+  color: #2d6c97;
+}
+
+.businessCards {
+  background: #fff;
+  margin-bottom: 2rem;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  margin: 0 auto;
+  width: 85%;
+}
+
+.partners {
+  text-align: center;
+  background: #fff;
+}
+
+.partnerTitle {
+  text-align: center;
+}
+
+.partnerList {
+  list-style: none;
+}
+
+.partnerList li {
+  display: block;
+}
+
+.footerNav {
+  background: #ef6c00;
+}

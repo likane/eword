@@ -2,6 +2,8 @@
 
 orange: #db942b
 
+pastel neon blue: #4285f4;
+
 color set 1:
 white: FFFFFF
 dark slate blue: 364181
@@ -10,7 +12,7 @@ Little boy blue:719AD8
 
 color set 1:
 celestial blue: 3C97D3
-lapis lazuli: 2D6C97
+lapis lazuli: 2D6C97 // dark grey blue
 dim gray: 6B6E6E
 peach: F7C59F
 
