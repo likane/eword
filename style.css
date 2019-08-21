@@ -10,6 +10,10 @@ body {
   height: 100%;
 }
 
+.navbar-nav {
+  margin-top: 1rem;
+}
+
 .nav-item {
   min-height: 3rem;
 }
@@ -36,6 +40,11 @@ body {
 .fa-bars {
   color: #fff;
   font-size: 2rem;
+}
+
+.navbar .socialMediaIcons {
+  margin-top: 1rem;
+  margin-bottom: 0rem !important;
 }
 
 .navbar .socialMediaIcons li {
@@ -292,4 +301,23 @@ p {
 
 .footerNav {
   background: #ef6c00;
+}
+
+/* About */
+.aboutQuote {
+  text-align: center;
+  margin-top: 7rem;
+}
+
+.aboutQuote h2 {
+  color: #78909c;
+  font-size: bold;
+}
+
+.aboutBio {
+  text-align: center;
+}
+
+.aboutBio h5 {
+  color: #2d6c97;
 }
