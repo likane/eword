@@ -116,15 +116,15 @@ p {
 
 .businessCards {
   background: #fff;
-  margin-bottom: 3rem;
-  margin-top: 3rem;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
 }
 .card {
   text-align: center;
   margin: 0 auto;
   width: 90%;
   /* background: #2d6c97; */
-  min-height: 23rem;
+  min-height: 21rem;
 }
 
 .customerReviewCard {
@@ -134,7 +134,7 @@ p {
 
 .serviceCard {
   background-image: url("https://placem.at/things");
-  /* background-image: url("https://fillmurray.com/200/300"); */
+  /* background-image: url("https://fillmurray.com"); */
 }
 /* https://fillmurray.com/ */
 
@@ -150,16 +150,34 @@ p {
   /* top: 0; */
   /* width: 100%; */
   /* opacity: 0.5; */
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  transition: all 0.3s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .card-title {
   color: #fff;
+  margin-top: 3rem;
+  font-size: 2rem;
+}
+/* .card h6 */
+.fa-comment,
+.fa-file-alt,
+.fa-sign-out-alt {
+  margin-top: 1.5rem;
+  color: #fff;
+  border-color: #fff;
+  /* width: 50%; */
+  font-size: 5rem;
 }
 
+.fa-comment:hover,
+.fa-file-alt:hover,
+.fa-sign-out-alt:hover {
+  color: #ef6c00;
+  border-color: #ef6c00;
+}
 /* card overlay effects*/
 /* .btn07 {
   width: 100%;
