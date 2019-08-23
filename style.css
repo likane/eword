@@ -303,19 +303,62 @@ p {
   background: #ef6c00;
 }
 
+.titleSection {
+  color: #2d6c97;
+  font-weight: bold;
+  margin-top: 7rem;
+  margin-bottom: 1rem;
+  /* float: left; */
+  /* display: block; */
+  /* width: 100%; */
+}
+
 /* About */
 .aboutQuote {
   text-align: center;
-  margin-top: 7rem;
+  margin-bottom: 1rem;
+  display: block;
+  width: 100%;
 }
 
 .aboutQuote h2 {
   color: #78909c;
-  font-size: bold;
+  font-size: 3rem;
+}
+
+.aboutServices {
+  border-right: 10px solid #fff;
+}
+
+.aboutContact {
+  border-left: 10px solid #fff;
+}
+
+.aboutCards a {
+  color: #ef6c00 !important;
+  font-size: 4rem;
+}
+
+.aboutCards a:hover {
+  color: #2d6c97;
+}
+
+.aboutCards {
+  text-align: center;
+  background: #78909c;
+  margin-bottom: 1rem;
+  min-height: 10rem;
+}
+
+.aboutCards h2 {
+  color: #fff;
+  font-weight: bold;
+  margin-top: 1rem;
 }
 
 .aboutBio {
   text-align: center;
+  margin-bottom: 1rem;
 }
 
 .aboutBio h5 {
