@@ -11,7 +11,7 @@ body {
 }
 
 .navbar-nav {
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
 }
 
 .nav-item {
@@ -149,7 +149,6 @@ p {
 
 .card:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  /* background: #fff; */
   background: linear-gradient(rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.5)),
     url("https://placem.at/things");
   -webkit-transition: all 0.5s;
@@ -163,14 +162,13 @@ p {
   margin-top: 3rem;
   font-size: 2rem;
 }
-/* .card h6 */
+
 .fa-comment,
 .fa-file-alt,
 .fa-sign-out-alt {
   margin-top: 1.5rem;
   color: #fff;
   border-color: #fff;
-  /* width: 50%; */
   font-size: 5rem;
 }
 
@@ -197,7 +195,6 @@ p {
 
 .partnerList li {
   display: inline;
-  /* float: left; */
 }
 
 .partnerList li {
@@ -221,7 +218,11 @@ p {
   /* width: 100%; */
 }
 
-/* About */
+section {
+  height: 100%;
+}
+
+/* ABOUT */
 .aboutQuote {
   text-align: center;
   margin-bottom: 1rem;
@@ -273,6 +274,74 @@ p {
   color: #2d6c97;
 }
 
-section {
-  height: 100%;
+/* CONTACT */
+.contactForm .contactSide {
+  display: inline-block;
+}
+
+.contactForm .btn {
+  background-color: #2d6c97;
+  border-color: #2d6c97;
+}
+.contactInfoCard {
+  background-color: #78909c;
+  background: repeating-linear-gradient(
+    45deg,
+    /* #455a64,
+    #455a64 15px, */ #fff,
+    #fff 15px,
+    #78909c 15px,
+    #78909c 30px
+  );
+  text-align: center;
+  height: 50%;
+  border: 10px solid #fff;
+  padding-top: 3rem;
+}
+
+.innerContactInfoCard {
+  background: #78909c;
+  /* width: 80%; */
+}
+
+.contactSocialCard {
+  background-color: #2d6c97;
+  background: repeating-linear-gradient(
+    45deg,
+    /* #1565c0,
+    #1565c0 20px, */ #fff,
+    #fff 15px,
+    #2d6c97 15px,
+    #2d6c97 30px
+  );
+  text-align: center;
+  height: 50%;
+  border: 10px solid #fff;
+  padding-top: 3rem;
+}
+
+.innerContactSocialCard {
+  background: #2d6c97;
+  /* width: 100%; */
+}
+
+.contactInfoCard h4,
+a {
+  color: #fff !important;
+}
+
+.contactInfoCard a:hover {
+  color: #ef6c00 !important;
+}
+
+.contactSocialCard li {
+  color: #fff;
+  list-style: none;
+  display: inline;
+  font-size: 4rem;
+  padding-right: 1.5rem;
+}
+
+.contactSocialCard a:hover {
+  color: #ef6c00 !important;
 }
