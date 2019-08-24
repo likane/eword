@@ -285,14 +285,14 @@ section {
 }
 .contactInfoCard {
   background-color: #78909c;
-  background: repeating-linear-gradient(
+  /* background: repeating-linear-gradient(
     45deg,
     /* #455a64,
-    #455a64 15px, */ #fff,
+    #455a64 15px, */ /* #fff,
     #fff 15px,
     #78909c 15px,
     #78909c 30px
-  );
+  ); */
   text-align: center;
   height: 50%;
   border: 10px solid #fff;
@@ -306,14 +306,15 @@ section {
 
 .contactSocialCard {
   background-color: #2d6c97;
-  background: repeating-linear-gradient(
+  /* background: repeating-linear-gradient(
     45deg,
     /* #1565c0,
-    #1565c0 20px, */ #fff,
+    #1565c0 20px, */
+  /*#fff,
     #fff 15px,
     #2d6c97 15px,
     #2d6c97 30px
-  );
+  ); */
   text-align: center;
   height: 50%;
   border: 10px solid #fff;
@@ -332,6 +333,7 @@ a {
 
 .contactInfoCard a:hover {
   color: #ef6c00 !important;
+  text-shadow: 1px 1px 1px #90a4ae;
 }
 
 .contactSocialCard li {
