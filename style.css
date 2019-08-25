@@ -283,6 +283,12 @@ section {
   background-color: #2d6c97;
   border-color: #2d6c97;
 }
+
+.contactForm .btn:hover {
+  background-color: #78909c;
+  border-color: #2d6c97;
+}
+
 .contactInfoCard {
   background-color: #78909c;
   /* background: repeating-linear-gradient(
@@ -346,4 +352,11 @@ a {
 
 .contactSocialCard a:hover {
   color: #ef6c00 !important;
+}
+
+/* SERVICES */
+
+.list-group-item {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
