@@ -25,12 +25,12 @@ body {
 }
 
 .nav-link:hover {
-  color: #2d6c97;
+  color: #2d6c97 !important;
 }
 
-.dropdown-item:hover {
+/* .dropdown-item:hover {
   color: #2d6c97;
-}
+} */
 
 .navbar {
   background-color: #ef6c00 !important;
@@ -56,7 +56,7 @@ body {
 }
 
 .navbar .socialMediaIcons li:hover {
-  color: #2d6c97;
+  color: #2d6c97 !important;
 }
 
 /* .socialMediaIcons .fab {
@@ -102,13 +102,21 @@ p {
   border-color: #ef6c00;
 }
 
+.splashPhoneButtons a {
+  color: #ef6c00 !important;
+}
+
+.splashPhoneButtons:hover > .indexPhoneBtn {
+  color: #fff !important;
+}
+
 .splashPhoneButtons:hover {
-  background-color: #ef6c00;
+  background-color: #ef6c00 !important;
   color: #fff;
 }
 
-.spashInfoButtons:hover {
-  color: #2d6c97;
+.spashInfoButtons:hover > .indexServicesBtn {
+  color: #2d6c97 !important;
 }
 
 .slogan {
@@ -359,4 +367,14 @@ a {
 .list-group-item {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+  font-size: 1.5rem;
 }
+
+.list-group-item-action:hover {
+  /* color: #495057; */
+  color: #2d6c97;
+}
+/* 
+.list-group-item:hover > a {
+  color: #ef6c00;
+} */
