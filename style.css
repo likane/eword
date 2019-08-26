@@ -8,10 +8,12 @@ p {
 body {
   background-color: #fff;
   height: 100%;
+  width: 100%;
 }
 
-.navbar-nav {
+section {
   /* margin-top: 1rem; */
+  width: 100%;
 }
 
 .nav-item {
@@ -335,11 +337,6 @@ section {
   padding-top: 3rem;
 }
 
-.innerContactSocialCard {
-  background: #2d6c97;
-  /* width: 100%; */
-}
-
 .contactInfoCard h4,
 a {
   color: #fff !important;
@@ -377,4 +374,103 @@ a {
 /* 
 .list-group-item:hover > a {
   color: #ef6c00;
+} */
+
+/* ipad pro 1024 */
+@media screen and (max-width: 1024px) {
+  /* Index  --> good*/
+  /* About --> good */
+  /* Services */
+  .list-group-item {
+    font-size: 1rem;
+  }
+  /* Contact */
+  .contactSocialCard {
+    padding-top: 3.3rem;
+  }
+  .contactSocialCard li {
+    font-size: 3rem;
+  }
+}
+/* ipad 768 */
+@media screen and (max-width: 768px) {
+  /* Index */
+  .sloganSaying {
+    font-size: 2.5rem;
+  }
+  /* About --> good */
+  /* Services */
+  .list-group-item {
+    font-size: 0.8rem;
+  }
+  /* Contact */
+  .contactSocialCard {
+    padding-top: 5rem;
+  }
+  .contactSocialCard li {
+    font-size: 1rem;
+  }
+
+  .contactInfoCard h4 {
+    font-size: 1rem;
+  }
+}
+/* iphone x 375 */
+/* iphone plus 414 */
+@media screen and (max-width: 414px) {
+  /* Index */
+  .jumbotron .display-4 {
+    font-size: 3rem;
+  }
+
+  .jumbotron .lead {
+    font-size: 1rem;
+  }
+  .sloganSaying {
+    font-size: 1rem;
+  }
+
+  .partnerList li {
+    font-size: 1.5rem;
+  }
+  /* Contact */
+  .contactSocialCard {
+    padding-top: 1.2rem;
+  }
+  .contactSocialCard li {
+    font-size: 2.5rem;
+  }
+
+  .contactInfoCard {
+    padding-top: 1rem;
+  }
+  .contactForm {
+    margin-bottom: 2rem;
+  }
+
+  .contactPave section {
+    height: 100%;
+    margin-bottom: 8rem;
+  }
+
+  .row {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+  }
+}
+/* iphone 375 */
+/* pixel 2 xl 411 */
+/* pixel 2  */
+/* galaxy s5 360 */
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+/* 
+* {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
 } */
