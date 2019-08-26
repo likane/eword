@@ -408,6 +408,10 @@ a {
   .list-group-item {
     font-size: 0.8rem;
   }
+
+  .list-group {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  }
   /* Contact */
   .contactSocialCard {
     padding-top: 5rem;
@@ -433,6 +437,19 @@ a {
   }
   .sloganSaying {
     font-size: 1rem;
+  }
+
+  .businessCards .card-title {
+    font-size: 1rem;
+  }
+
+  .businessCards h6 {
+    font-size: 2rem;
+  }
+
+  .businesCards .card {
+    min-height: 15rem !important;
+    margin-bottom: 1rem;
   }
 
   .partnerList li {
