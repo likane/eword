@@ -394,6 +394,11 @@ a {
 }
 /* ipad 768 */
 @media screen and (max-width: 768px) {
+  /*Nav*/
+  .socialMediaIcons {
+    padding-left: 0px;
+  }
+
   /* Index */
   .sloganSaying {
     font-size: 2.5rem;
@@ -433,6 +438,15 @@ a {
   .partnerList li {
     font-size: 1.5rem;
   }
+  /*Services*/
+  .list-group {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  }
+
+  /*About*/
+  .aboutQuote h2 {
+    font-size: 1.5rem;
+  }
   /* Contact */
   .contactSocialCard {
     padding-top: 1.2rem;
@@ -448,7 +462,16 @@ a {
     margin-bottom: 2rem;
   }
 
-  .contactPave section {
+  .contactPage section {
+    height: 100%;
+    margin-bottom: 8rem;
+  }
+
+  .aboutPage section {
+    height: 100%;
+    margin-bottom: 8rem;
+  }
+  .servicesPage section {
     height: 100%;
     margin-bottom: 8rem;
   }
