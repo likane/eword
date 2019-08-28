@@ -376,6 +376,18 @@ a {
   color: #ef6c00;
 } */
 
+@media screen and (max-width: 1207px) {
+    /* Contact */
+    .contactSocialCard {
+      padding-top: 3.3rem;
+    }
+    .contactSocialCard li {
+      font-size: 3rem;
+    }
+  }
+}
+
+
 /* ipad pro 1024 */
 @media screen and (max-width: 1024px) {
   /* Index  --> good*/
@@ -392,6 +404,21 @@ a {
     font-size: 3rem;
   }
 }
+
+@media screen and (max-width: 993px) {
+
+  /* Contact */
+  .contactSocialCard {
+    padding-top: 5rem;
+  }
+  .contactSocialCard li {
+    font-size: 1rem;
+  }
+
+  .contactInfoCard h4 {
+    font-size: 1rem;
+  }
+}
 /* ipad 768 */
 @media screen and (max-width: 768px) {
   /*Nav*/
@@ -400,6 +427,20 @@ a {
   }
 
   /* Index */
+
+  .businessCards .card-title {
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+  }
+
+  .businesCards h6 {
+    font-size: 0.8rem;
+  }
+
+  .businesCards .card {
+    min-height: none !important;
+    width: 97%;
+  }
   .sloganSaying {
     font-size: 2.5rem;
   }
@@ -414,7 +455,7 @@ a {
   }
   /* Contact */
   .contactSocialCard {
-    padding-top: 5rem;
+    padding-top: 1.2rem;
   }
   .contactSocialCard li {
     font-size: 1rem;
@@ -422,6 +463,14 @@ a {
 
   .contactInfoCard h4 {
     font-size: 1rem;
+  }
+  .contactInfoCard {
+    padding-top: .2rem;
+  }
+
+  .contactPage section {
+    height: 100%;
+    margin-bottom: 8rem;
   }
 }
 /* iphone x 375 */
@@ -446,6 +495,12 @@ a {
 
   .businessCards .card-title {
     font-size: 1rem;
+  }
+
+  .customerReviewCard,
+  .serviceCard {
+    margin-bottom: 2rem;
+    max-height: 15rem;
   }
 
   .businessCards h6 {
