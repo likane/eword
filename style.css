@@ -433,10 +433,15 @@ a {
   }
 
   .jumbotron .lead {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
+
   .sloganSaying {
     font-size: 1rem;
+  }
+
+  .jumbotron .btn {
+    font-size: 8px;
   }
 
   .businessCards .card-title {
@@ -503,6 +508,12 @@ a {
 /* pixel 2 xl 411 */
 /* pixel 2  */
 /* galaxy s5 360 */
+@media screen and (max-width: 378px) {
+  /* Index */
+  .jumbotron .btn {
+    font-size: 5px;
+  }
+}
 
 .row {
   margin-left: 0px;
