@@ -377,16 +377,20 @@ a {
 } */
 
 @media screen and (max-width: 1207px) {
-    /* Contact */
-    .contactSocialCard {
-      padding-top: 3.3rem;
-    }
-    .contactSocialCard li {
-      font-size: 3rem;
-    }
+  /* Contact */
+  .contactSocialCard {
+    padding-top: 3.3rem;
+  }
+  .contactSocialCard li {
+    font-size: 3rem;
+  }
+
+  /* About */
+
+  .aboutPage {
+    margin-bottom: 3rem;
   }
 }
-
 
 /* ipad pro 1024 */
 @media screen and (max-width: 1024px) {
@@ -406,7 +410,6 @@ a {
 }
 
 @media screen and (max-width: 993px) {
-
   /* Contact */
   .contactSocialCard {
     padding-top: 5rem;
@@ -445,6 +448,9 @@ a {
     font-size: 2.5rem;
   }
   /* About --> good */
+  .aboutQuote h2 {
+    font-size: 2rem;
+  }
   /* Services */
   .list-group-item {
     font-size: 0.8rem;
@@ -453,6 +459,7 @@ a {
   .list-group {
     border-bottom: 1px solid rgba(0, 0, 0, 0.125);
   }
+
   /* Contact */
   .contactSocialCard {
     padding-top: 1.2rem;
@@ -465,7 +472,7 @@ a {
     font-size: 1rem;
   }
   .contactInfoCard {
-    padding-top: .2rem;
+    padding-top: 0.2rem;
   }
 
   .contactPage section {
