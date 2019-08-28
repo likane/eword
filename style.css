@@ -388,7 +388,7 @@ a {
   /* About */
 
   .aboutPage {
-    margin-bottom: 3rem;
+    margin-bottom: 2.5rem;
   }
 }
 
@@ -421,6 +421,10 @@ a {
   .contactInfoCard h4 {
     font-size: 1rem;
   }
+
+  .partners ul {
+    padding-inline-start: 0px !important;
+  }
 }
 /* ipad 768 */
 @media screen and (max-width: 768px) {
@@ -431,13 +435,24 @@ a {
 
   /* Index */
 
+  .jumbotron .btn {
+    font-size: 1rem;
+    width: 60%;
+  }
+
   .businessCards .card-title {
-    margin-top: 1.5rem;
-    font-size: 1.5rem;
+    margin-top: 2rem;
+    font-size: 2rem;
   }
 
   .businesCards h6 {
     font-size: 0.8rem;
+  }
+
+  .customerReviewCard,
+  .serviceCard {
+    margin-bottom: 2rem;
+    max-height: 15rem;
   }
 
   .businesCards .card {
@@ -447,6 +462,7 @@ a {
   .sloganSaying {
     font-size: 2.5rem;
   }
+
   /* About --> good */
   .aboutQuote h2 {
     font-size: 2rem;
@@ -480,6 +496,14 @@ a {
     margin-bottom: 8rem;
   }
 }
+
+@media screen and (max-width: 504px) {
+  /* Index */
+  .jumbotron .btn {
+    font-size: 0.8rem;
+    width: 65%;
+  }
+}
 /* iphone x 375 */
 /* iphone plus 414 */
 @media screen and (max-width: 414px) {
@@ -500,9 +524,10 @@ a {
     font-size: 8px;
   }
 
-  .businessCards .card-title {
+  /* .businessCards .card-title {
+    margin-top: 1.5rem;
     font-size: 1rem;
-  }
+  } */
 
   .customerReviewCard,
   .serviceCard {
